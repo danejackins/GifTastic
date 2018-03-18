@@ -1,0 +1,51 @@
+button, div, form, input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#movie-form {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+body{
+    background-image: url("lichtenstein.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    color: black;
+}
+
+#add-superhero {
+    background: black;
+}
+
+.title {
+    background-color: #3b68ab;
+    color: #fee201;    
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: thick;
+}
+
+#movie-form {
+    color: black;
+}
+
+#add-superhero {
+    color: white;
+}
+
+.item {
+    display: inline-block;
+}
+
+#superhero-view {
+    color: purpleush ;
+}
