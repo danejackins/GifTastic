@@ -40,7 +40,6 @@ $(document).ready(function() {
 
                     // Creating an image tag
                     var superheroImage = $("<img>");
-
                     var animatedUrl = result.images.fixed_height.url;
                     var stillUrl = result.images.fixed_height_still.url;
 

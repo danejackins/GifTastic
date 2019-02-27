@@ -8,11 +8,10 @@ button, div, form, input {
     padding-bottom: 2%;
 }
 
-body{
+body {
     background-image: url("lichtenstein.jpg");
-    width: 100%;
+    background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -48,4 +47,5 @@ button {
 
 #superhero-view {
     color: purpleush ;
+    max-width: 1200px;
 }
