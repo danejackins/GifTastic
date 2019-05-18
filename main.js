@@ -8,8 +8,8 @@ $(document).ready(function() {
 
         // Grabbing and storing the data-name
         var hero = $(this).attr("data-name");
-        var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' +
-            hero + '&api_key=dc6zaTOxFJmzC&limit=10';
+
+        var queryURL = 'https://api.giphy.com/v1/gifs/search?api_key=y8aJF10mfuenSmNkDcOu5hJ0fK9HsGaD&q=' + hero + '&limit=10';
 
         // Creates AJAX call for the specific superhero button being clicked
         $.ajax({
@@ -27,7 +27,6 @@ $(document).ready(function() {
                 console.log('result', result);
                 //Only taking action if the photo has an appropriate rating
                 if (result.rating !== 'r' && result.rating !== 'pg-13') {
-
 
                     // Creating a div with the class "item"
                     var gifDiv = $("<div class='item'>");
